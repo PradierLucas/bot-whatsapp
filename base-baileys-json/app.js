@@ -4,6 +4,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const JsonFileAdapter = require('@bot-whatsapp/database/json')
 
+
 const flowPrecio = addKeyword(['precios', 'precio']).addAnswer(
     [
         '💰 Ingresa a este link para conocer nuestros precios y ofertas:',
