@@ -38,7 +38,7 @@ const flowAgradecimiento = addKeyword(['gracias', 'grac', 'gracia']).addAnswer(
     ]
 );
 
-const flowNoReconocido = addKeyword(['default']).addAnswer(
+const flowNoReconocido = addKeyword(['']).addAnswer(
     [
         '🤔 Lo siento, no entendí tu mensaje.',
         'Por favor, escribe uno de los siguientes comandos:',
