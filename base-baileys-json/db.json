@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "ref": "c5c30650-d11b-4c10-94fb-e197b5a996d0",
+    "keyword": "84c68068266b2cf3c9f3b8b2ca33632f",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493764639995",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_075dabfb-28e9-4286-a925-71c820ee52a2",
+    "keyword": "key_2e3c7fd8-3a54-4ebe-ab0f-df973e01c059",
+    "answer": "🙌 *Hola, bienvenido a Estación de Carnes*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_2338b4a0-261d-4071-b61e-20d1bd322ae8",
+          "keyword": [
+            "precios",
+            "precio"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "9475c3522abdbbeaaffc2384319013ab"
+        },
+        {
+          "ref": "ans_e7197bf0-64a8-404d-9ee4-487618973886",
+          "keyword": "key_2338b4a0-261d-4071-b61e-20d1bd322ae8",
+          "answer": "💰 Ingresa a este link para conocer nuestros precios y ofertas:\n🔗 https://preciosestacion.netlify.app/\n\n🔄 *Regresa al menú principal escribiendo \"menú\"*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "4dd8097739e30ee704fb17bb1359df5f"
+        },
+        {
+          "ref": "key_c190a5ca-c177-4e35-a994-ab7a2a9ecb21",
+          "keyword": [
+            "ubicacion",
+            "ubicación"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "67fed14adf7cac60f297dcaafa6962fb"
+        },
+        {
+          "ref": "ans_ef569bca-14d4-41dd-96b9-dd5cd350e388",
+          "keyword": "key_c190a5ca-c177-4e35-a994-ab7a2a9ecb21",
+          "answer": "📍 *¡Visítanos!*\n🏠 *Sucursal 1*: Quaranta y Av 115\n🏠 *Sucursal 2*: Ruta 12 y 17 de Agosto\n\n🔄 *Regresa al menú principal escribiendo \"menú\"*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "69be65ec4d1cc64bb39617a7fafb3b43"
+        },
+        {
+          "ref": "key_1cfe7483-af7b-4013-93ca-7f5b8b127b3f",
+          "keyword": [
+            "horarios",
+            "horario"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "0cf61d2cce473c0ce574c150bcba12b4"
+        },
+        {
+          "ref": "ans_a2ff73b6-6e84-4afa-ac83-cb7d19dbc515",
+          "keyword": "key_1cfe7483-af7b-4013-93ca-7f5b8b127b3f",
+          "answer": "🕒 *Horarios de atención:*\n📅 Lunes a Sábados de 8:00 a 13:00 y de 17:00 a 21:00 hs\n📅 Domingos de 9:00 a 13:00 hs\n\n🔄 *Regresa al menú principal escribiendo \"menú\"*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "4d3abc3e4237543a0fbf053c3ee403dd"
+        },
+        {
+          "ref": "key_1791c61e-cbf2-472a-8a25-5a9fb3bae1b1",
+          "keyword": [
+            "sorteo"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "077bf41143129ad56c19cb1af865caab"
+        },
+        {
+          "ref": "ans_03283d7a-3976-4380-a922-a6f13295c16a",
+          "keyword": "key_1791c61e-cbf2-472a-8a25-5a9fb3bae1b1",
+          "answer": "🎉 ¡Gracias por querer participar en nuestro sorteo!\n🔗 Completa el siguiente formulario para registrarte:\n👉 [Aquí va el enlace al formulario del sorteo]\n\n¡Mucha suerte! 🍀\n🔄 *Para regresar al menú en cualquier momento, escribe \"menú\".*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "93d0070ddd836e6aeb2c6ac3c9ebb094"
+        },
+        {
+          "ref": "key_7f0e832f-6ee1-494a-88e8-645f81ae47be",
+          "keyword": [
+            "pago"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c477255da71d1e45b9923b52e2e1952a"
+        },
+        {
+          "ref": "ans_09e03e8c-e5e5-463b-8683-3bc59110fe1b",
+          "keyword": "key_7f0e832f-6ee1-494a-88e8-645f81ae47be",
+          "answer": "💳 *Medios de Pago Disponibles*:\n1️⃣ Tarjetas de crédito/débito.\n2️⃣ Mercado Pago.\n3️⃣ Efectivo.\n\n🎁 *Beneficios*: 30% Reintegro con la aplicación MODO del BANCO NACION\n\n🔄 *Para regresar al menú en cualquier momento, escribe \"menú\".*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "174a62aef6a69bc9f570991a7ea7b4c5"
+        },
+        {
+          "ref": "key_b9c073da-9767-4037-8277-92b5fac1891a",
+          "keyword": [
+            "gracias",
+            "grac",
+            "gracia"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "2e4fa0bda81e1a87127faf466ba085fb"
+        },
+        {
+          "ref": "ans_7090ed1a-02a4-4d20-8d27-e2580c0dda2f",
+          "keyword": "key_b9c073da-9767-4037-8277-92b5fac1891a",
+          "answer": "🙏 ¡De nada! Estamos para ayudarte.\nSi necesitas algo más, no dudes en preguntar.\n\n🔄 *Regresa al menú principal escribiendo \"menú\"*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6d6affc767d406ea6751f552a1246521"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "71167c912c2be345aa9b63927484b72d",
+    "from": "5493764639995"
+  },
+  {
+    "ref": "ans_807a5340-bcca-445c-9b20-7924ca404cf5",
+    "keyword": "ans_075dabfb-28e9-4286-a925-71c820ee52a2",
+    "answer": "Aquí tienes las opciones disponibles:\n👉 *PRECIOS* para conocer nuestros precios y ofertas.\n👉 *HORARIOS* para ver los horarios de atención.\n👉 *UBICACION* para conocer nuestras sucursales.\n👉 *PAGO* para conocer nuestros medios de pago y beneficios\n👉 *SORTEO* para participar del sorteo!\n\n🔄 *Para regresar a este menú en cualquier momento, escribe \"menú\".*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "4c5aefc43e54d75c00659db70f22273c",
+    "from": "5493764639995"
+  },
+  {
+    "ref": "d4cc1741-4526-4fb3-aa37-67a132b848d8",
+    "keyword": "4c5aefc43e54d75c00659db70f22273c",
+    "answer": "Pago",
+    "options": {},
+    "from": "5493764639995",
+    "refSerialize": "d68b14b290c8ae9daf9ef46e0abb2742"
+  },
+  {
+    "ref": "ans_09e03e8c-e5e5-463b-8683-3bc59110fe1b",
+    "keyword": "key_7f0e832f-6ee1-494a-88e8-645f81ae47be",
+    "answer": "💳 *Medios de Pago Disponibles*:\n1️⃣ Tarjetas de crédito/débito.\n2️⃣ Mercado Pago.\n3️⃣ Efectivo.\n\n🎁 *Beneficios*: 30% Reintegro con la aplicación MODO del BANCO NACION\n\n🔄 *Para regresar al menú en cualquier momento, escribe \"menú\".*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d5818185dd8cef4ff916265b37df5207",
+    "from": "5493764639995"
+  },
+  {
+    "ref": "06469535-80b7-44e0-9adc-307f0b8e2af9",
+    "keyword": "d5818185dd8cef4ff916265b37df5207",
+    "answer": "Precio",
+    "options": {},
+    "from": "5493764639995",
+    "refSerialize": "c94bebc5a260640dfa0942ddc60524a5"
+  },
+  {
+    "ref": "ans_e7197bf0-64a8-404d-9ee4-487618973886",
+    "keyword": "key_2338b4a0-261d-4071-b61e-20d1bd322ae8",
+    "answer": "💰 Ingresa a este link para conocer nuestros precios y ofertas:\n🔗 https://preciosestacion.netlify.app/\n\n🔄 *Regresa al menú principal escribiendo \"menú\"*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e5bfaa7cbb7d7ab186dd9cefd494a328",
+    "from": "5493764639995"
+  }
+]

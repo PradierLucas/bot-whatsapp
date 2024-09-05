@@ -1,0 +1,156 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493764639995@s.whatsapp.net',
+    fromMe: false,
+    id: '38C90CEED47B9232631523F655B87D33',
+    participant: undefined
+  },
+  messageTimestamp: 1725557385,
+  pushName: 'Lucas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5493764639995'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_075dabfb-28e9-4286-a925-71c820ee52a2',
+  keyword: 'key_2e3c7fd8-3a54-4ebe-ab0f-df973e01c059',
+  answer: '🙌 *Hola, bienvenido a Estación de Carnes*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '71167c912c2be345aa9b63927484b72d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_807a5340-bcca-445c-9b20-7924ca404cf5',
+  keyword: 'ans_075dabfb-28e9-4286-a925-71c820ee52a2',
+  answer: 'Aquí tienes las opciones disponibles:\n' +
+    '👉 *PRECIOS* para conocer nuestros precios y ofertas.\n' +
+    '👉 *HORARIOS* para ver los horarios de atención.\n' +
+    '👉 *UBICACION* para conocer nuestras sucursales.\n' +
+    '👉 *PAGO* para conocer nuestros medios de pago y beneficios\n' +
+    '👉 *SORTEO* para participar del sorteo!\n' +
+    '\n' +
+    '🔄 *Para regresar a este menú en cualquier momento, escribe "menú".*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4c5aefc43e54d75c00659db70f22273c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493764639995@s.whatsapp.net',
+    fromMe: false,
+    id: 'EE633144905B3493DF2DCB4F96BCE9FB',
+    participant: undefined
+  },
+  messageTimestamp: 1725557389,
+  pushName: 'Lucas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Pago',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Pago',
+  from: '5493764639995'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_09e03e8c-e5e5-463b-8683-3bc59110fe1b',
+  keyword: 'key_7f0e832f-6ee1-494a-88e8-645f81ae47be',
+  answer: '💳 *Medios de Pago Disponibles*:\n' +
+    '1️⃣ Tarjetas de crédito/débito.\n' +
+    '2️⃣ Mercado Pago.\n' +
+    '3️⃣ Efectivo.\n' +
+    '\n' +
+    '🎁 *Beneficios*: 30% Reintegro con la aplicación MODO del BANCO NACION\n' +
+    '\n' +
+    '🔄 *Para regresar al menú en cualquier momento, escribe "menú".*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd5818185dd8cef4ff916265b37df5207'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493764639995@s.whatsapp.net',
+    fromMe: false,
+    id: 'F72FD2E98CC5FF711ED696587692C98A',
+    participant: undefined
+  },
+  messageTimestamp: 1725557409,
+  pushName: 'Lucas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Precio',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Precio',
+  from: '5493764639995'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e7197bf0-64a8-404d-9ee4-487618973886',
+  keyword: 'key_2338b4a0-261d-4071-b61e-20d1bd322ae8',
+  answer: '💰 Ingresa a este link para conocer nuestros precios y ofertas:\n' +
+    '🔗 https://preciosestacion.netlify.app/\n' +
+    '\n' +
+    '🔄 *Regresa al menú principal escribiendo "menú"*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e5bfaa7cbb7d7ab186dd9cefd494a328'
+}
