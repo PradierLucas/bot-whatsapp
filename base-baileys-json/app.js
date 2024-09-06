@@ -48,13 +48,13 @@ const flowpago = addKeyword(['pago']).addAnswer(
     '\n🔄 *Para regresar al menú en cualquier momento, escribe "menú".*']
 );
 
-const flowsorteo = addKeyword(['sorteo']).addAnswer(
+/* const flowsorteo = addKeyword(['sorteo']).addAnswer(
   [ '🎉 ¡Gracias por querer participar en nuestro sorteo!',
     '🔗 Completa el siguiente formulario para registrarte:',
     '👉 [Aquí va el enlace al formulario del sorteo]', // Reemplaza con el enlace real
     '\n¡Mucha suerte! 🍀',
     '🔄 *Para regresar al menú en cualquier momento, escribe "menú".*']
-);
+); */
 
 const flowNoReconocido = addKeyword(['']).addAnswer(
     [
@@ -64,7 +64,7 @@ const flowNoReconocido = addKeyword(['']).addAnswer(
         '👉 *HORARIOS* para ver los horarios de atención.',
         '👉 *UBICACION* para conocer nuestras sucursales.',
         '👉 *PAGO* para conocer nuestros medios de pago y beneficios',
-        '👉 *SORTEO* para participar del sorteo!',
+        /* '👉 *SORTEO* para participar del sorteo!', */
         '\n🔄 *Para regresar al menú en cualquier momento, escribe "menú".*',
         '🕐 *Si necesitas otra consulta, por favor espera un momento a ser atendido.*'
     ]
@@ -74,7 +74,7 @@ const flowPrincipal = addKeyword(['hola', 'buenas', 'buen', 'menu', 'menú']).ad
     '🙌 *Hola, bienvenido a Estación de Carnes*',
     null,
     null,
-    [flowPrecio, flowGracias, flowHorario,flowsorteo,flowpago, flowAgradecimiento]
+    [flowPrecio, flowGracias, flowHorario,flowpago, flowAgradecimiento]
 ).addAnswer(
     [
         'Aquí tienes las opciones disponibles:',
@@ -82,7 +82,7 @@ const flowPrincipal = addKeyword(['hola', 'buenas', 'buen', 'menu', 'menú']).ad
         '👉 *HORARIOS* para ver los horarios de atención.',
         '👉 *UBICACION* para conocer nuestras sucursales.',
         '👉 *PAGO* para conocer nuestros medios de pago y beneficios',
-        '👉 *SORTEO* para participar del sorteo!',
+     /*    '👉 *SORTEO* para participar del sorteo!', */
         '\n🔄 *Para regresar a este menú en cualquier momento, escribe "menú".*'
     ]
 );
@@ -90,7 +90,7 @@ const flowPrincipal = addKeyword(['hola', 'buenas', 'buen', 'menu', 'menú']).ad
 
 const main = async () => {
     const adapterDB = new JsonFileAdapter()
-    const adapterFlow = createFlow([flowPrincipal,flowsorteo, flowPrecio, flowpago, flowGracias, flowHorario, flowAgradecimiento, flowNoReconocido])
+    const adapterFlow = createFlow([flowPrincipal, flowPrecio, flowpago, flowGracias, flowHorario, flowAgradecimiento, flowNoReconocido])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
